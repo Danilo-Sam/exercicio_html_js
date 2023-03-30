@@ -1,0 +1,61 @@
+body{
+    max-width: 960px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(57, 187, 242);
+}
+
+h1{
+    justify-content: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form-numbers{
+    max-width: 200px;
+    width: 100%;
+    max-height: 32px;
+    height: 100%;
+    margin-top: 61px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#campo-a,
+#campo-b{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+input{
+    max-width: 150px;
+    height: 100%;
+}
+
+button{
+    margin-left: 20px;
+    margin-top: 16px;
+    background-color: rgb(46, 221, 252);
+    align-items: center;
+    cursor: pointer;
+}
+
+.mensagem {
+    border: 6px dotted #000;
+    margin-top: 280px;
+    padding: 16px;
+    align-items: center;
+}
+
+.mensagem span {
+    display: block;
+    font-size: 32px;
+    align-items: center;
+}
